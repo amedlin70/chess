@@ -1,0 +1,11 @@
+package chess;
+
+public enum ReturnCodes {
+	INVALID_LOCATION, 
+	DESTINATION_BLOCKED, 
+	BAD_DESTINATION, 
+	SUCCESS, 
+	PUTS_KING_IN_CHECK, 
+	DEST_EMPTY, 
+	DEST_ATTACKABLE
+}
